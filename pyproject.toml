@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Epub Rewriter"
+version = "0.0.1-dev.1"
+description = ""
+authors = [
+    "jakubjezek001 <jakubjezek001@gmail.com>",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.11.5"
+click = "*"
+
+[tool.poetry.extras]
+docs = ["Sphinx", "sphinxcontrib-napoleon"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
