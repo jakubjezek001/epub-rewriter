@@ -10,7 +10,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.11.5"
 click = "*"
-epub = "^0.5.2"
+ebooklib = "^0.18"
+bs4 = "^0.0.2"
+requests = "^2.32.3"
 
 [tool.poetry.extras]
 docs = ["Sphinx", "sphinxcontrib-napoleon"]
